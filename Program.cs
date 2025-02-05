@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using Azure.Messaging.EventHubs.Consumer;
 
-var connectionString = "";
+var connectionString = "Endpoint=sb://delmerg.servicebus.windows.net/;SharedAccessKeyName=newpolict;SharedAccessKey=vO15Hgg2T6yn5Qe6gbFFoyIwV0XO9U4eh+AEhLifpeg=";
 var eventHubName = "api-usage";
 
 string consumerGroup = EventHubConsumerClient.DefaultConsumerGroupName;
